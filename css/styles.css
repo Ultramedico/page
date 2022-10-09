@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(1, 31, 53) !important;
+}
+
+a{ color: black !important;
+  
+}
+
+a:hover{ color: white !important; }
+
+
+
+table
+
+{
+    width: 80%;
+    border-radius: 60px;
+    background-color: white;
+    border-collapse: separate !important;
+    margin: 200px auto 100px ;
+    
+    
+}
+th{ 
+ 
+border-style: none !important ;
+ border-radius: 60px;  
+ padding-top: 7%;
+ padding-bottom: 5%;
+ text-align: center !important;
+ font-family: cursive;
+ 
+}
+
+td{ 
+  font-size: 1rem; 
+ padding: 20px 6% 6% ;
+  font-family: ui-san-serif;
+}
+
+
+
+
+
+
+
+@media ( min-width: 900px ){
+  th{ font-size: 1rem;}
+ 
+ }
+ @media ( max-width: 900px) and ( min-width:480px ){
+  th{ font-size: 0.8rem !important;}
+  
+  td{ 
+  font-size: 1rem !important;}
+ }
+ @media ( max-width: 480px){
+  th{ font-size: 0.4rem !important;}
+ 
+  
+  td{ 
+    font-size: 0.8rem !important;}
+ 
+  
+ }
+
+
+
+th:nth-child(odd) {
+    background-color: rgb(1, 31, 53);
+    border-width: 0.2em;
+    color: white;
+    
+}
+
+
+
+ 
+
+ /*Footer */
+
+ footer{ 
+  background-color: rgb(39, 38, 38);
+ text-align: center;
+ font-size: 0.8rem;
+ color: #4d4d4d;
+ margin-top: 500px;
+ }
+
+  
