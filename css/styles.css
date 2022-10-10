@@ -28,7 +28,7 @@ border-style: none !important ;
  padding-top: 7%;
  padding-bottom: 5%;
  text-align: center !important;
- 
+
 }
 
 td{ 
@@ -44,7 +44,7 @@ td{
 
 
 @media ( min-width: 900px ){
-  th{ font-size: 1rem;}
+  h3{ font-size: 1rem;}
  
  }
  @media ( max-width: 900px) and ( min-width:480px ){
@@ -54,11 +54,11 @@ td{
   font-size: 1rem !important;}
  }
  @media ( max-width: 480px){
-  th{ font-size: 0.4rem !important;}
+  h3{ font-size: 0.8rem !important;}
  
   
   td{ 
-    font-size: 0.7rem !important;}
+    font-size: 0.5rem !important;}
  
   
  }
